@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dot Product Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="dotproductRadio" name="variables" checked>
+  <label for="dotproductRadio">Dot product</label>
+
+  <input type="radio" id="axRadio" name="variables">
+  <label for="axRadio">(a) x</label>
+
+  <input type="radio" id="ayRadio" name="variables">
+  <label for="ayRadio">(a) y</label>
+
+  <input type="radio" id="azRadio" name="variables">
+  <label for="azRadio">(a) z</label>
+
+  <input type="radio" id="bxRadio" name="variables">
+  <label for="bxRadio">(b) x</label>
+
+  <input type="radio" id="byRadio" name="variables">
+  <label for="byRadio">(b) y</label>
+
+  <input type="radio" id="bzRadio" name="variables">
+  <label for="bzRadio">(b) z</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(a) x</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(a) y</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">(a) z</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">(b) x</label>
+  <input type="number" id="v4"><br><br>
+  
+  <label for="v5" id="variable5">(b) y</label>
+  <input type="number" id="v5"><br><br>
+  
+  <label for="v6" id="variable6">(b) z</label>
+  <input type="number" id="v6"><br><br>
+
+  <button id="btn">compute</button> 
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
